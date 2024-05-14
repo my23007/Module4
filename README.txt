@@ -31,151 +31,170 @@ pip install bandit
 
 Running the Application
 To run the application and execute the automated tests, use the following command:
-python mod4_assign.py
+python mod4_coding_assignment.py
 
 This will run the Flake8 linter and Bandit security testing, followed by executing the main functionality of the music app. Below is a sample output
 
 myounes@myouneslap MINGW64 ~/Module4 (main)
 $ python mod4_assign.py
 Running Flake8:
-mod4_assign.py:6:1: E302 expected 2 blank lines, found 1
-mod4_assign.py:11:1: E302 expected 2 blank lines, found 1
-mod4_assign.py:15:1: W293 blank line contains whitespace
-mod4_assign.py:24:1: W293 blank line contains whitespace
-mod4_assign.py:28:1: W293 blank line contains whitespace
-mod4_assign.py:33:1: W293 blank line contains whitespace
-mod4_assign.py:38:1: W293 blank line contains whitespace
-mod4_assign.py:42:1: W293 blank line contains whitespace
-mod4_assign.py:44:80: E501 line too long (110 > 79 characters)
-mod4_assign.py:53:1: W293 blank line contains whitespace
-mod4_assign.py:55:80: E501 line too long (96 > 79 characters)
-mod4_assign.py:63:1: W293 blank line contains whitespace
-mod4_assign.py:68:1: E302 expected 2 blank lines, found 1
-mod4_assign.py:72:1: W293 blank line contains whitespace
-mod4_assign.py:79:1: W293 blank line contains whitespace
-mod4_assign.py:83:1: W293 blank line contains whitespace
-mod4_assign.py:86:1: W293 blank line contains whitespace
-mod4_assign.py:89:1: W293 blank line contains whitespace
-mod4_assign.py:91:80: E501 line too long (123 > 79 characters)
-mod4_assign.py:93:1: W293 blank line contains whitespace
-mod4_assign.py:100:1: W293 blank line contains whitespace
-mod4_assign.py:105:1: W293 blank line contains whitespace
-mod4_assign.py:108:1: W293 blank line contains whitespace
-mod4_assign.py:111:1: W293 blank line contains whitespace
-mod4_assign.py:114:1: W293 blank line contains whitespace
-mod4_assign.py:116:80: E501 line too long (109 > 79 characters)
-mod4_assign.py:118:1: W293 blank line contains whitespace
-mod4_assign.py:125:1: W293 blank line contains whitespace
-mod4_assign.py:130:1: W293 blank line contains whitespace
-mod4_assign.py:135:1: E302 expected 2 blank lines, found 1
-mod4_assign.py:138:1: W293 blank line contains whitespace
-mod4_assign.py:145:1: W293 blank line contains whitespace
-mod4_assign.py:148:1: W293 blank line contains whitespace
-mod4_assign.py:155:1: W293 blank line contains whitespace
-mod4_assign.py:160:1: E302 expected 2 blank lines, found 1
-mod4_assign.py:164:80: E501 line too long (130 > 79 characters)
-mod4_assign.py:165:80: E501 line too long (105 > 79 characters)
-mod4_assign.py:169:1: W293 blank line contains whitespace
-mod4_assign.py:172:80: E501 line too long (136 > 79 characters)
-mod4_assign.py:173:80: E501 line too long (105 > 79 characters)
-mod4_assign.py:177:1: W293 blank line contains whitespace
-mod4_assign.py:182:1: E305 expected 2 blank lines after class or function definition, found 1
-mod4_assign.py:184:1: W293 blank line contains whitespace
-mod4_assign.py:187:1: W293 blank line contains whitespace
-mod4_assign.py:189:80: E501 line too long (81 > 79 characters)
-mod4_assign.py:192:1: W293 blank line contains whitespace
-mod4_assign.py:194:1: W293 blank line contains whitespace
-mod4_assign.py:197:1: W293 blank line contains whitespace
-mod4_assign.py:199:80: E501 line too long (82 > 79 characters)
-mod4_assign.py:200:59: W292 no newline at end of file
+mod4_coding_assignment.py:12:1: E302 expected 2 blank lines, found 1
+mod4_coding_assignment.py:17:1: E302 expected 2 blank lines, found 1
+mod4_coding_assignment.py:21:1: W293 blank line contains whitespace
+mod4_coding_assignment.py:32:1: W293 blank line contains whitespace
+mod4_coding_assignment.py:36:80: E501 line too long (81 > 79 characters)
+mod4_coding_assignment.py:41:1: W293 blank line contains whitespace
+mod4_coding_assignment.py:45:1: W293 blank line contains whitespace
+mod4_coding_assignment.py:49:1: W293 blank line contains whitespace
+mod4_coding_assignment.py:53:1: W293 blank line contains whitespace
+mod4_coding_assignment.py:55:80: E501 line too long (110 > 79 characters)
+mod4_coding_assignment.py:64:1: W293 blank line contains whitespace
+mod4_coding_assignment.py:66:80: E501 line too long (96 > 79 characters)
+mod4_coding_assignment.py:74:1: W293 blank line contains whitespace
+mod4_coding_assignment.py:79:1: E302 expected 2 blank lines, found 1
+mod4_coding_assignment.py:83:1: W293 blank line contains whitespace
+mod4_coding_assignment.py:89:1: W293 blank line contains whitespace
+mod4_coding_assignment.py:92:1: W293 blank line contains whitespace
+mod4_coding_assignment.py:95:1: W293 blank line contains whitespace
+mod4_coding_assignment.py:96:80: E501 line too long (123 > 79 characters)
+mod4_coding_assignment.py:98:1: W293 blank line contains whitespace
+mod4_coding_assignment.py:104:1: W293 blank line contains whitespace
+mod4_coding_assignment.py:108:1: W293 blank line contains whitespace
+mod4_coding_assignment.py:112:1: W293 blank line contains whitespace
+mod4_coding_assignment.py:113:80: E501 line too long (109 > 79 characters)
+mod4_coding_assignment.py:115:1: W293 blank line contains whitespace
+mod4_coding_assignment.py:121:1: W293 blank line contains whitespace
+mod4_coding_assignment.py:125:1: W293 blank line contains whitespace
+mod4_coding_assignment.py:129:1: E302 expected 2 blank lines, found 1
+mod4_coding_assignment.py:132:1: W293 blank line contains whitespace
+mod4_coding_assignment.py:137:1: W293 blank line contains whitespace
+mod4_coding_assignment.py:139:1: W293 blank line contains whitespace
+mod4_coding_assignment.py:144:1: W293 blank line contains whitespace
+mod4_coding_assignment.py:147:1: E302 expected 2 blank lines, found 1
+mod4_coding_assignment.py:150:80: E501 line too long (141 > 79 characters)
+mod4_coding_assignment.py:155:1: W293 blank line contains whitespace
+mod4_coding_assignment.py:157:80: E501 line too long (147 > 79 characters)
+mod4_coding_assignment.py:162:1: W293 blank line contains whitespace
+mod4_coding_assignment.py:167:1: W293 blank line contains whitespace
+mod4_coding_assignment.py:177:80: E501 line too long (104 > 79 characters)
+mod4_coding_assignment.py:186:80: E501 line too long (85 > 79 characters)
+mod4_coding_assignment.py:189:80: E501 line too long (99 > 79 characters)
+mod4_coding_assignment.py:195:80: E501 line too long (102 > 79 characters)
+mod4_coding_assignment.py:200:1: W293 blank line contains whitespace
+mod4_coding_assignment.py:204:1: E305 expected 2 blank lines after class or function definition, found 1
+mod4_coding_assignment.py:206:1: W293 blank line contains whitespace
+mod4_coding_assignment.py:209:1: W293 blank line contains whitespace
+mod4_coding_assignment.py:214:1: W293 blank line contains whitespace
+mod4_coding_assignment.py:216:1: W293 blank line contains whitespace
+mod4_coding_assignment.py:218:1: W293 blank line contains whitespace
+mod4_coding_assignment.py:219:80: E501 line too long (82 > 79 characters)
+mod4_coding_assignment.py:227:1: W391 blank line at end of file
 
 
 Running Bandit:
-Run started:2024-05-14 07:27:27.417962
+Run started:2024-05-14 14:15:11.303081
 
 Test results:
 >> Issue: [B404:blacklist] Consider possible security implications associated with the subprocess module.
    Severity: Low   Confidence: High
    CWE: CWE-78 (https://cwe.mitre.org/data/definitions/78.html)
-   More Info: https://bandit.readthedocs.io/en/1.7.5/blacklists/blacklist_imports.html#b404-import-subprocess
-   Location: mod4_assign.py:1:0
-1       import subprocess
-2       import hashlib
-3       from datetime import datetime
+   More Info: https://bandit.readthedocs.io/en/1.7.8/blacklists/blacklist_imports.html#b404-import-subprocess
+   Location: .\mod4_coding_assignment.py:7:0
+6	
+7	import subprocess
+8	import hashlib
 
 --------------------------------------------------
 >> Issue: [B607:start_process_with_partial_path] Starting a process with a partial executable path
    Severity: Low   Confidence: High
    CWE: CWE-78 (https://cwe.mitre.org/data/definitions/78.html)
-   More Info: https://bandit.readthedocs.io/en/1.7.5/plugins/b607_start_process_with_partial_path.html
-   Location: mod4_assign.py:164:25
-163             print("Running Flake8:")
-164             flake8_process = subprocess.Popen(["flake8", "mod4_assign.py"], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
-165             flake8_stdout, flake8_stderr = flake8_process.communicate(timeout=30)  # Adjust timeout as needed
+   More Info: https://bandit.readthedocs.io/en/1.7.8/plugins/b607_start_process_with_partial_path.html
+   Location: .\mod4_coding_assignment.py:150:25
+149	        print("Running Flake8:")
+150	        flake8_process = subprocess.Popen(["flake8", "mod4_coding_assignment.py"], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+151	        flake8_stdout, flake8_stderr = flake8_process.communicate(timeout=30)
 
 --------------------------------------------------
 >> Issue: [B603:subprocess_without_shell_equals_true] subprocess call - check for execution of untrusted input.
    Severity: Low   Confidence: High
    CWE: CWE-78 (https://cwe.mitre.org/data/definitions/78.html)
-   More Info: https://bandit.readthedocs.io/en/1.7.5/plugins/b603_subprocess_without_shell_equals_true.html
-   Location: mod4_assign.py:164:25
-163             print("Running Flake8:")
-164             flake8_process = subprocess.Popen(["flake8", "mod4_assign.py"], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
-165             flake8_stdout, flake8_stderr = flake8_process.communicate(timeout=30)  # Adjust timeout as needed
+   More Info: https://bandit.readthedocs.io/en/1.7.8/plugins/b603_subprocess_without_shell_equals_true.html
+   Location: .\mod4_coding_assignment.py:150:25
+149	        print("Running Flake8:")
+150	        flake8_process = subprocess.Popen(["flake8", "mod4_coding_assignment.py"], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+151	        flake8_stdout, flake8_stderr = flake8_process.communicate(timeout=30)
 
 --------------------------------------------------
 >> Issue: [B607:start_process_with_partial_path] Starting a process with a partial executable path
    Severity: Low   Confidence: High
    CWE: CWE-78 (https://cwe.mitre.org/data/definitions/78.html)
-   More Info: https://bandit.readthedocs.io/en/1.7.5/plugins/b607_start_process_with_partial_path.html
-   Location: mod4_assign.py:172:25
-171             print("\nRunning Bandit:")
-172             bandit_process = subprocess.Popen(["bandit", "-r", "mod4_assign.py"], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
-173             bandit_stdout, bandit_stderr = bandit_process.communicate(timeout=30)  # Adjust timeout as needed
+   More Info: https://bandit.readthedocs.io/en/1.7.8/plugins/b607_start_process_with_partial_path.html
+   Location: .\mod4_coding_assignment.py:157:25
+156	        print("\nRunning Bandit:")
+157	        bandit_process = subprocess.Popen(["bandit", "-r", "mod4_coding_assignment.py"], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+158	        bandit_stdout, bandit_stderr = bandit_process.communicate(timeout=30)
 
 --------------------------------------------------
 >> Issue: [B603:subprocess_without_shell_equals_true] subprocess call - check for execution of untrusted input.
    Severity: Low   Confidence: High
    CWE: CWE-78 (https://cwe.mitre.org/data/definitions/78.html)
-   More Info: https://bandit.readthedocs.io/en/1.7.5/plugins/b603_subprocess_without_shell_equals_true.html
-   Location: mod4_assign.py:172:25
-171             print("\nRunning Bandit:")
-172             bandit_process = subprocess.Popen(["bandit", "-r", "mod4_assign.py"], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
-173             bandit_stdout, bandit_stderr = bandit_process.communicate(timeout=30)  # Adjust timeout as needed
+   More Info: https://bandit.readthedocs.io/en/1.7.8/plugins/b603_subprocess_without_shell_equals_true.html
+   Location: .\mod4_coding_assignment.py:157:25
+156	        print("\nRunning Bandit:")
+157	        bandit_process = subprocess.Popen(["bandit", "-r", "mod4_coding_assignment.py"], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+158	        bandit_stdout, bandit_stderr = bandit_process.communicate(timeout=30)
 
 --------------------------------------------------
 
 Code scanned:
-        Total lines of code: 121
-        Total lines skipped (#nosec): 0
-        Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+	Total lines of code: 155
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
 
 Run metrics:
-        Total issues (by severity):
-                Undefined: 0
-                Low: 5
-                Medium: 0
-                High: 0
-        Total issues (by confidence):
-                Undefined: 0
-                Low: 0
-                Medium: 0
-                High: 5
+	Total issues (by severity):
+		Undefined: 0
+		Low: 5
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 5
 Files skipped (0):
 
-[main]  INFO    profile include tests: None
-[main]  INFO    profile exclude tests: None
-[main]  INFO    cli include tests: None
-[main]  INFO    cli exclude tests: None
-[main]  INFO    running on Python 3.7.0
+[main]	INFO	profile include tests: None
+[main]	INFO	profile exclude tests: None
+[main]	INFO	cli include tests: None
+[main]	INFO	cli exclude tests: None
+[main]	INFO	running on Python 3.9.7
 
+
+Testing Artifact Creation with Checksum and Encryption:
+Authenticating user: admin
+Authentication successful
+User admin is already authenticated
+Artifact added successfully.
+Artifact 1 exists.
+Stored artifact: {'title': 'Test Song', 'artist': 'Test Artist', 'content': '.tnetnoc tset a si sihT', 'creation_date': datetime.datetime(2024, 5, 14, 17, 15, 11, 333790), 'modification_date': datetime.datetime(2024, 5, 14, 17, 15, 11, 333790), 'checksum': 'f74d46f5c58d6d0fac6e1dd341dc44e8881cc40fc2c08daec80ec75b902a42db'}
+Expected checksum: f74d46f5c58d6d0fac6e1dd341dc44e8881cc40fc2c08daec80ec75b902a42db
+Stored checksum: f74d46f5c58d6d0fac6e1dd341dc44e8881cc40fc2c08daec80ec75b902a42db
+Checksum verification passed: True
+Expected encrypted content: .tnetnoc tset a si sihT
+Stored encrypted content: .tnetnoc tset a si sihT
+Encryption verification passed: True
 Enter username: admin
 Enter a password: ········
-Enter song title: dff
-Enter artist name: sds
-User authentication failed.
-Enter the ID of the artifact to delete: 56
-User authentication failed.
+Enter song title: testing
+Enter artist name: testing
+User admin is not authenticated
+Authenticating user: admin
+Authentication successful
+Artifact added successfully.
+Enter the ID of the artifact to delete: 123
+User admin is already authenticated
+Artifact does not exist.
 
 Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
